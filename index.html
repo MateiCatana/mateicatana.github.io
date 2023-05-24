@@ -7,6 +7,7 @@
     <link rel="shortcut icon" type="x-icon" href="images/2-23545_lion-head-logo-png-transparent-png.png">
     <title>Matei Catana's Website</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="aventuri.html">
     <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
 
 </head>
@@ -18,16 +19,19 @@
             <ul id="sidemenu">
                 <li><a href="#header">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#services">Topics</a></li>
+                <li><a href="#portfolio">Adventures</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <hr/>
                 <i class="fas fa-times" onclick="closemenu()"></i>
             </ul>
             <i class="fas fa-bars" onclick="openmenu()"></i>
         </nav>
         <div class="header-text">
             <p></p>
-            <h1>Hi, I'm <span>Matei</span><br><span>Catana</span>, this is my<br> personal webpage!</h1>
+            <h1>Hi, I'm <span><strong>Matei</span><br><span>Catana</strong></span></span>, this is my<br> personal <span>webpage!</span></h1>
+            <br/>
+            <h6>Know Me Better!</h6>
         </div>
     </div>
 </div>
@@ -47,6 +51,8 @@
                     <p class="tab-links" onclick="opentab('experience')">Work Experience</p>
                     <p class="tab-links" onclick="opentab('education')">Education</p>
                     <p class="tab-links" onclick="opentab('courses')">Courses</p>
+                    <p class="tab-links" onclick="opentab('location')">Location</p>
+
                 </div>
                 <div class="tab-contents active-tab" id="skills">
                     <ul>
@@ -72,9 +78,24 @@
                 <div class="tab-contents" id="courses">
                     <ul>
                         <li><span>20.03.2023 - current</span><br>Relational Database - FreeCodeCamp</li>
+                        <li><span>18.03.2023 - current</span><br>Statistics - Professor Leonard</li>
                         <li><span>01.03.2023 - current</span><br>Data Analytics Bootcamp - Alexander Freberg(Alex The Analyst)</li>
-                        <li><span>30.09.2022 - 30.12.2022</span><br>IBM Data Science Professional Certificate - Coursera</li>
+                        <li><span>19.04.2023 - current</span><br>English Course(Upper Intemediate B2) - Fantastic English</li>
+                        <div>
+                            <h3>✅Done</h3>
+                            <ul>
+                                <li><span>25.04.2023 - 14.05.2023</span><br>IBM Data Science Professional Certificate - Coursera</li>
+                                <li><span>30.09.2022 - 30.12.2022</span><br>IBM Data Science Professional Certificate - Coursera</li>
+                            </ul>
+                        </div>
+                        
+
                     </ul>
+                </div>
+                <div class="tab-contents" id="location">
+                <ul>
+                <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d173637.89006278175!2d27.446887308585623!3d47.15605191962026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40cafb7cf639ddbb%3A0x7ccb80da5426f53c!2zSWHImWk!5e0!3m2!1sen!2sro!4v1683649122348!5m2!1sen!2sro" width="400em" height="400em" style="border:solid black ;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+                 </ul>
                 </div>
             </div>
         </div>
@@ -83,7 +104,7 @@
 <!-- ---------services---------------- -->
 <div id="services">
     <div class="container">
-        <h1 class="sub-title">My Future Services:</h1>
+        <h1 class="sub-title">Main topics that I'm interested in:</h1>
         <div class="services-list">
             <div>
                 <i class="fa-solid fa-database"></i>
@@ -111,7 +132,25 @@
             </div>
             <div>
                 <i class="fa-solid fa-chart-column"></i>
-                <h2>Data Analyst</h2>
+                <h2>Data Science</h2>
+                <p>In developing...</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-robot"></i>
+                <h2>Machine learning</h2>
+                <p>In developing...</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-brain"></i>
+                <h2>Artificial Inteligence</h2>
+                <p>In developing...</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-desktop"></i>
+                <h2>Hardware</h2>
                 <p>In developing...</p>
                 <a href="#">Learn more</a>
             </div>
@@ -121,64 +160,62 @@
 <!-- ----------portfolio------------ -->
 <div id="portfolio">
     <div class="container">
-        <h1 class="sub-title">My Work:</h1>
+        <h1 class="sub-title">Adventures:</h1>
         <div class="work-list">
             <div class="work">
-                <img src="images/work-1.png">
+                <img src="images/Northen Lights.jpeg">
                 <div class="layer">
-                    <h3>Analyse</h3>
-                    <p>The app connects you yo the talented people around the world. Download it from play store.</p>
+                    <h3>Akureyri - Iceland </h3>
+                    <p>Date: 17.09.2022</p>
                     <a href="#"><i class="fas fa-external-link-alt"></i></a>
                 </div>
             </div>
             <div class="work">
-                <img src="images/work-2.png">
+                <img src="images/GermanCastle.jpeg">
                 <div class="layer">
-                    <h3>Music App</h3>
-                    <p>The app connects you yo the talented people around the world. Download it from play store.</p>
+                    <h3>Hohenzollern Castle - Germany</h3>
+                    <p>Date: 25.04.2022</p>
                     <a href="#"><i class="fas fa-external-link-alt"></i></a>
                 </div>
             </div>
             <div class="work">
-                <img src="images/work-3.png">
+                <img src="images/Rhine Falls.jpeg">
                 <div class="layer">
-                    <h3>Online Shopping App</h3>
-                    <p>The app connects you yo the talented people around the world. Download it from play store.</p>
+                    <h3>Rhine Falls - Switzerland</h3>
+                    <p>Date: 24.04.2022</p>
                     <a href="#"><i class="fas fa-external-link-alt"></i></a>
                 </div>
             </div>
         </div>
-        <a href="#" class="btn">See more</a>
+        <a href="aventuri.html" class="btn">See more</a>
+
     </div>
 </div>
 <!-- ----------contact------------- -->
-<div id="contact">
+<div id="contact"> 
     <div class="container">
         <div class="row">
             <div class="contact-left">
                 <h1 class="sub-title">Contact Me</h1>
-                <p><i class="fas fa-paper-plane"></i> mateicatana7@gmail.com</p>
-                <p><i class="fas fa-phone-square-alt"></i> 0732104526</p>
+                <address>
+                    <p>
+                        <a class="link_email" href="mailto:mateicatana7@gmail.com">
+                            <p><i class="fa-solid fa-envelope"></i> mateicatana7@gmail.com</p></a>
+                    </p>
+                </address>
                 <div class="social-icons">
                     <a href="https://www.facebook.com/profile.php?id=100072203936598" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
-                    <a href=""><i class="fa-brands fa-square-youtube"></i></a>
+                    <a href="">soon<i class="fa-brands fa-square-youtube"></i></a>
                     <a href="https://www.instagram.com/matei_catana/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
                     <a href="https://www.linkedin.com/in/c%C4%83tan%C4%83-bota-vlad-matei-733a5b245/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
                 </div>
-                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
-            </div>
-            <div class="contact-right">
-                <form name="submit-to-google-sheet">
-                    <input type="text" name="Name" placeholder="Your Name" required>
-                    <input type="email" name="Email" placeholder="Your Email" required>
-                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                    <button type="submit" class="btn btn2">Submit</button>
-                </form>
-                <span id="msg"></span>
             </div>
         </div>
     </div>
-</div>
+</div> 
+
+
+
 
 
 
@@ -212,23 +249,6 @@
     }
 
 </script>
-<script>
-    const scriptURL = '< add you own link here >' // add your own app script link here
-    const form = document.forms['submit-to-google-sheet']
-    const msg = document.getElementById("msg")
-  
-    form.addEventListener('submit', e => {
-      e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response => {
-            msg.innerHTML = "Message sent successfully"
-            setTimeout(function(){
-                msg.innerHTML = ""
-            },5000)
-            form.reset()
-        })
-        .catch(error => console.error('Error!', error.message))
-    })
-  </script>
+
 </body>
 </html>
